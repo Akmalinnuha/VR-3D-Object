@@ -1,0 +1,15 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl map_kata1
+Ns 82.706287
+Ka 1.000000 1.000000 1.000000
+Kd 0.066667 0.125490 0.141176
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd T_map_kata1_BaseColor.jpg
+map_Ns T_map_kata1_Roughness.jpg
+refl T_map_kata1_metallic.jpg

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Model 3D</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <!-- <img id="sky" src="castle_village_scene/sky.jpg"> -->
+            <a-asset-item id="city" src="low_poly_city/scene.gltf"></a-asset-item>
+            <a-asset-item id="plane-o" src="Airplane_v1_L1/11803_Airplane_v1_l1.obj"></a-asset-item>
+            <a-asset-item id="plane-m" src="Airplane_v1_L1/11803_Airplane_v1_l1.mtl"></a-asset-item>
+        </a-assets>
+        <a-sky color="#90b5f0"></a-sky>
+        <a-entity position="-7 5 25">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-entity gltf-model="#city" position="0 0 0" scale="1 1 1"></a-entity>
+        <a-entity obj-model="obj: #plane-o; mtl: #plane-m" position="-0.5 20 15" rotation="-90 90 90" scale="0.002 0.002 0.002"></a-entity>
+    </a-scene>
+</body>
+</html>
